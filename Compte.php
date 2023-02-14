@@ -63,8 +63,8 @@ class Compte{
 
 // Afficher toutes les informations d'un compte bancaire, notamment le nom / prénom du titulaire du compte.
     public function informationCompte(){
-        echo $this -> _libelle ." " .":" ." " .$this -> _solde ." " .$this -> _devise ." "  
-        ."appartient a " .$this -> $titulaire ."<br>"; // how to put the titulaire name and surname ?
+        echo "<br>" .$this -> _libelle ." " .":" ." " .$this -> _solde ." " .$this -> _devise ." "  
+        ."appartient a " .$this -> _titulaire -> getNom() ." " .$this -> _titulaire -> getPrenom() ."<br>"; // how to put the titulaire name and surname ?
     }
 
 // afficher la valuer 

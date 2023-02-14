@@ -36,6 +36,7 @@ echo $compte1 -> virement(20, $compte2);
 echo $compte2 -> afficherSolde();
 echo $titulaire1 -> informationTitulaire();
 echo $compte1 -> informationCompte();
+echo $compte2 -> informationCompte();
 
 
 ?>

@@ -74,6 +74,8 @@ class Titulaire{
     }
     }
 
+    
+
 
     public function __toString()
     {
